@@ -1,0 +1,9 @@
+version: '3'
+services:
+  node-sandbox:
+    container_name: node-container
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - "8080:8000"
