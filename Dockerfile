@@ -5,4 +5,4 @@ WORKDIR /code
 COPY . /code
 RUN npm install
 CMD [ "npm", "start" ]
-EXPOSE 8080 8000
+EXPOSE 8000
